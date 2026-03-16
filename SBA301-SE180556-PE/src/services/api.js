@@ -21,7 +21,7 @@ export const searchShoes = (name = "", category = "", page = 0, size = 5) => {
     });
 };
 
-export const getShoeById = (id) => {
+export const getShoesById = (id) => {
     return axiosInstance.get(`/api/shoes/${id}`);
 };
 
